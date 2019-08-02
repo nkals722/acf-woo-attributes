@@ -1,3 +1,5 @@
+#Advanced Custom Fields: Woocommerce Attribute Picker Field
+
 === Advanced Custom Fields: Woocommerce Attribute Picker Field ===
 Contributors: Nick Kalscheur
 Tags: PLUGIN_TAGS
