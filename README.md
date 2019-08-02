@@ -1,7 +1,7 @@
 # Advanced Custom Fields: Woocommerce Attribute Picker Field
 
 Contributors: Nick Kalscheur
-Tags: PLUGIN_TAGS
+Tags: acf, woocommerce
 Requires at least: 3.6.0
 Tested up to: 4.9.0
 Stable tag: trunk
