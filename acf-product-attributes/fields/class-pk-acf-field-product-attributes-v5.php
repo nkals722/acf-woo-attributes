@@ -148,7 +148,7 @@ class pk_acf_field_product_attributes extends acf_field {
 
 		<select class="pk-acf-prod-attr-select" name="<?php echo esc_attr($field['name']) ?>[]" multiple="multiple">
 			<?php foreach($atts as $c => $a): ?> 
-			<option value="<?php echo $a->attribute_id; ?>"<?php if(in_array($a->attribute_id,$field['value'])){ echo 'selected="selected"'; } ?>><?php echo $a->attribute_label; ?></option>
+			<option value="<?php echo $a->attribute_id; ?>"<?php if(is_array($field['value']) && in_array($a->attribute_id,$field['value'])){ echo 'selected="selected"'; } ?>><?php echo $a->attribute_label; ?></option>
 			<?php endforeach; ?>
 		</select>
 
